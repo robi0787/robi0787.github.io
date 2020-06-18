@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+section article h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+section article p {
+    font-size: 2rem;
+}
+header, section {
+    background-color: #f7f7ff;
+    color: #333131;
+}
+
+footer {
+    background-color: #fffd8c;
+}
+
+.bg-image {
+    background-image: url("../images/bg-image/scooter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    justify-items: center;
+    align-content: space-between;
+    }
+
+.applynow {
+    background-color: white;
+    /* margin: ;
+    background-color: ; */
+    color:#333131;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media(min-width:679px) {
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1023px){
+
+    }
+
+
+
+
+
+
