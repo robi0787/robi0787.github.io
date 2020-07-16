@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+/* Mobile View */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3C3B3A;
+    text-align: center;
+}
+
+header img {
+    width: 88px;
+    height: auto;
+    padding-top: 23px;
+}
+
+nav ul li {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 23px;
+}
+
+nav ul li a {
+    color: #F2F2F2;
+    display: block;
+    text-decoration: none;
+
+}
+
+nav a:hover,
+nav a:active,
+nav a.active,
+nav ul li:active {
+    font-weight: bold;
+}
+
+
+/* Home section 1*/
+
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.sec5 {
+    margin: auto;
+    width: 301px;
+}
+
+.sec1 h1 {
+    font-size: 40px;
+    color: #3C3B3A;
+    padding-top: 25px;
+    padding-bottom: 19px;
+}
+
+.sec1 .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    text-align: center;
+}
+
+.sec1 p {
+    font-size: 20px;
+    color: #3C3B3A;
+    line-height: 35px;
+    padding-bottom: 15.45px;
+}
+
+.sec1 figcaption {
+    color: #26A682;
+}
+
+.sec1 button {
+    color: #F2F2F2;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 10px 10px #124A3A80;
+    margin-top: 30px;
+}
+
+.sec1 img {
+    width: 78px;
+    height: auto;
+}
+
+.sec1 .discover {
+    width: 300px;
+    height: auto;
+    padding-top: 50px;
+    margin-bottom: 25.55px;
+}
+
+
+/* ABOUT Section 2 */
+.part2 img,
+.part4 img {
+    width: 100%;
+}
+
+.sec2 h2,
+.sec4 h2,
+.about3 h2 {
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #3C3B3A;
+}
+
+.sec2 h3,
+.sec4 h3,
+.about3 h3,
+.greyarea h3 {
+    font-weight: normal;
+    font-size: 24px;
+    color: #26A682;
+}
+
+.sec2 p,
+.sec4 p {
+    font-size: 16px;
+    color: #3C3B3A;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec2 button,
+.sec4 button {
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    width: 146px;
+    height: 45px;
+    box-shadow: 0px 10px 10px #124A3A80;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+
+/* HOME Section 3 */
+
+.part3 {
+    background-color: #3C3B3A;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #F2F2F2;
+}
+
+.sec3 h3 {
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sec3 p {
+    line-height: 35px;
+    padding-top: 20px;
+
+}
+
+.sec3 img {
+    width: 175px;
+    height: auto;
+    border-radius: 90px;
+    border: 5px solid #F2F2F2;
+    margin: auto;
+    display: block;
+    margin-bottom: 28px;
+
+}
+
+/* HOME Section 4 */
+
+
+/* footer */
+footer,
+.subscribe {
+    background-color: #3C3B3A;
+}
+
+footer h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #F2F2F2;
+    font-weight: 400;
+    padding-top: 32px;
+}
+
+footer div {
+    padding-top: 7px;
+    padding-bottom: 34px;
+    text-align: center;
+
+}
+
+footer div img {
+    margin-left: 12px;
+}
+
+footer .btt {
+    color: #F2F2F2;
+    font-size: 9px;
+    text-decoration: none;
+
+    display: inline;
+    position: fixed;
+    right: 19px;
+    bottom: 45px;
+
+}
+
+
+/* ABOUT section 1 */
+.sec1 .const,
+.about2 {
+    width: 301px;
+    margin: auto;
+}
+
+
+.const {
+    padding-bottom: 23px;
+}
+
+/* ABOUT Section 2 */
+.banner {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner h4 {
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F2F2F2;
+}
+
+.sec2 h4 {
+    color: #F2F2F2;
+    background-image: url("../images/about.jpg");
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* ABOUT Section 3 */
+/* some background grey and some white. create divs acordingly */
+
+.sec2.grey,
+.about3 .grey {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.about2 .grey h2:nth-child(1) {
+    padding-top: 25px;
+
+}
+
+.new-img {
+    display: none;
+}
+
+.sec3.zztop {
+    width: 100%;
+}
+
+.sec3.zztop .grey {
+    background-color: #F2F2F2;
+    padding-top: 1.5rem;
+}
+
+.sec3.zztop .grey .greyarea,
+.sec3.zztop .about3 {
+    margin: auto;
+    width: 301px;
+}
+
+.sec3 h4 {
+    color: #F2F2F2;
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about3 h2,
+.greyarea h2,
+.about5 h1 {
+    font-style: normal;
+    font-size: 32px;
+}
+
+.about3 h3,
+.greyarea h3 {
+    text-align: left;
+}
+
+.subscribe h5 {
+    padding-top: 23px;
+    font-size: 18px;
+    color: #F2F2F2;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe button {
+    background-color: #26A682;
+    width: 140px;
+    height: 35px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    border-radius: 40px;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* ABOUT sect 4 */
+
+.sec4 .about4 h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.about5 h1,
+.about4 h1 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+/* ABOUT section 5 */
+.prt5 h1 {
+    font-size: 56px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.prt5img {
+    text-align: center;
+}
+
+.sec5 .sass img {
+    width: 301px;
+    height: 87px;
+    padding-top: 44px;
+}
+
+.sec5 .acol img {
+    width: 202px;
+    height: auto;
+    padding-top: 22px;
+}
+
+.sec5 .pcl img {
+    width: 220px;
+    height: auto;
+    padding-top: 22px;
+}
+
+.sec5 .cibc img {
+    width: 152px;
+    height: auto;
+    padding-top: 22px;
+    padding-bottom: 44px;
+}
+
+
+
+/* CONTACT PAGE */
+.sec1 .form h1 {
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.sec1 .form {
+    background-color: #26A682;
+    border-radius: 25px;
+    width: 304px;
+    color: #F2F2F2;
+    padding-top: 20px;
+    box-shadow: 10px 10px 7px #14403326;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+input[type=text] {
+    width: 275px;
+    height: 40px;
+    border-radius: 72px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 275px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: none;
+}
+
+.subbut {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+    width: 270px;
+    height: 50px;
+    box-shadow: 0px 10px 10px #124A3A80;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sec2 .cont2 h5 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sec2 .cont2 h3 {
+    color: #3C3B3A;
+    padding-top: 15px;
+}
+
+.sec2 .cont2 p {
+    padding-bottom: 50px;
+}
+
+
+
+/* TABLET VIEW */
+
+@media (min-width: 768px) {
+
+    /* 3 nav links on the right and logo on the left with space in between */
+    /*nav links in a row with grid*/
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+
+    header img {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        padding-left: 70px;
+    }
+
+    nav {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    nav ul {
+        display: flex;
+        padding-top: 50px;
+    }
+
+    nav ul li {
+        padding-right: 50px;
+    }
+
+    /* create margin 700 for sections */
+    .sec1,
+    .sec2,
+    .sec3,
+    .sec4,
+    .sec5 {
+        margin: auto;
+        width: 700px;
+    }
+
+    /* THis GOES SIDE BY SIDE IN TABLET WITH GRID -remember*/
+    .words {
+        width: 372px;
+        padding-bottom: 63px;
+    }
+
+    /* homepage */
+    .sec1 {
+        text-align: center;
+    }
+
+    .sec1 h1,
+    .sec1 p {
+        text-align: left;
+    }
+
+    .part2 .sec2 h2,
+    .sec4 h2 {
+        font-size: 40px;
+    }
+
+    .part2 .sec2 h3,
+    .sec4 h3 {
+        font-size: 32px;
+    }
+
+    .part2 .sec2 p,
+    .sec4 p {
+        font-size: 18px;
+    }
+
+    /* create one row of icons */
+
+    .sec1 .icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 146px;
+        text-align: center;
+    }
+
+    .icons figcaption {
+        font-size: 16px;
+    }
+
+    .sec1 button {
+        width: 300px;
+        height: 65px;
+        font-size: 40px;
+    }
+
+    /* enlarge img sizes */
+    .sec1 img {
+        width: 35px;
+        height: auto;
+    }
+
+    .sec1 .discover {
+        width: 350px;
+        height: auto;
+        margin-bottom: 68px;
+    }
+
+    /* crop image to fit 100% width and 200px height */
+
+    .part2 img,
+    .part4 img {
+        height: 200px;
+    }
+
+    .allprez {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prez2 p {
+        font-size: 24px;
+    }
+
+
+
+    /* CONTACT PAGE */
+    .cont1 h1 {
+        font-size: 72px;
+    }
+
+    .sec1 .cont1 p {
+        font-size: 24px;
+    }
+
+    .sec1 .form {
+        width: 608px;
+        height: 801px;
+        text-align: center;
+    }
+
+    /* CONTACT FORM TABLET SIZING */
+    .name,
+    .form .email,
+    .form .studnum,
+    .form .message {
+        text-align: left;
+        font-size: 18px;
+        margin-left: 46px;
+    }
+
+    .sec1 .form h1 {
+        font-size: 72px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .sec2 .cont2 p,
+    .sec2.grey .about2 .grey h2,
+    .sec2.grey .about2 .grey p {
+        text-align: left;
+
+    }
+
+    input[type=text] {
+        height: 50px;
+        width: 516px;
+        margin-bottom: 40px;
+    }
+
+    textarea {
+        width: 516px;
+        height: 148px;
+        margin-bottom: 20px;
+    }
+
+    input[type=submit] {
+        width: 210px;
+        height: 65px;
+        float: right;
+        margin-bottom: 40px;
+        margin-right: 25px;
+    }
+
+    .sec2 .cont2 h5 {
+        font-size: 72px;
+    }
+
+    .sec2 .cont2 h3 {
+        font-size: 40px;
+    }
+
+    .sec2 .cont2 iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    /* ABOUT PAGE */
+    .prt1 h1 {
+        font-size: 72pt;
+    }
+
+    .prt1 p {
+        font-size: 24px;
+    }
+
+    .sec1 .const {
+        width: 573px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .about2 {
+        width: 600px;
+        text-align: center;
+    }
+
+
+    .sec3.zztop .grey .greyarea,
+    .sec3.zztop .about3,
+    .about4,
+    .about5 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        width: 600px;
+    }
+
+    /* image needs to appear on tablet mode beside */
+    .grey .greyarea .new-img,
+    .about3 .new-img,
+    .about4 .new-img,
+    .about5 .new-img {
+        display: block;
+        width: auto;
+        height: 337px;
+    }
+
+    .new-img img {
+        width: 218px;
+        height: 375px;
+        border-radius: 0;
+        margin-top: 40px;
+        margin-right: 16px;
+    }
+
+    .grey h2,
+    .words h2,
+    .about5 h1,
+    .sec4 .words h1 {
+        font-size: 47px;
+
+    }
+
+    .grey h3,
+    .words h3 {
+        font-size: 32px;
+    }
+
+    .grey p,
+    .words p {
+        font-size: 18px;
+    }
+
+    .subscribe {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .subscribe h5 {
+        font-size: 24px;
+        margin-top: 7px;
+    }
+
+    .subscribe button {
+        height: 45px;
+        width: 240px;
+        font-size: 24pt;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .sec1,
+    .sec2,
+    .sec3,
+    .sec4,
+    .sec5,
+    .sec3,
+    .part2,
+    .part4 {
+        margin: auto;
+        width: 85%;
+    }
+
+    /* HOME DESKTOP */
+    .sec1 .discover {
+        width: 951px;
+        padding-top: 0;
+        padding-top: 25px;
+
+    }
+
+    .icons {
+        margin: 56px;
+    }
+
+    .part2 img,
+    .part4 img {
+        width: 813px;
+        height: 337px;
+    }
+
+    .part2 {
+        background-color: #F2F2F2;
+    }
+
+    .part2,
+    .part4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 81px;
+        margin-top: 81px;
+    }
+
+    /* ABOUT Section Desktop */
+    .sec1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec1 .prt1 {
+        margin-top: 148px;
+        margin-bottom: 148px;
+    }
+
+    /* changes home and about */
+    .prt1 h1 {
+        font-size: 72px;
+    }
+
+    .prt1 p {
+        font-size: 24px;
+    }
+
+    .const {
+        width: 820px;
+
+    }
+
+
+    /* WHO WHAT WHEN IN GRID OF 3*/
+
+    .thews {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 70px;
+        
+
+    }
+    .who, .what, .where {
+        width: 500px;
+    }
+
+
+
+
+
+    /* photos sideby side with grid */
+
+    .greyarea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* suprise images are larger in desktop*/
+    .new-img img {
+        width: 813px;
+        height: 337px;
+    }
+
+    .subscribe h5 {
+        text-align: right;
+
+    }
+    .words {
+        width: 813px;
+        margin-top: 82px;
+        margin-bottom: 82px;
+    }
+    .prt5img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* CONTACT PAGE */
+
+    .group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 162px;
+        text-align: center;
+    }
+
+    .grp1 {
+        padding-right: 62px;
+    }
+    .grp2 {
+        margin-left: 100px;
+    }
+    .cont1 {
+        padding-bottom: 50px;
+    }
+
+    .cont2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 125px;
+    }
+
+}

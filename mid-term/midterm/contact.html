@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="icon" href="images/favicon.ico" type='image/x-icon'>
     <link rel="stylesheet" href="normalize/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sec1">
+
+        <!-- make 3 divs for grid in desktop -->
+        <div class="group">
+            <div class="grp1">
+                <div class="cont1">
+                    <h1>We Want to Hear From You</h1>
+                    <p>
+                        If you have an idea for an activity that you think you and your fellow students would love to
+                        participate in that we are not already offering, we want to know about it!
+                    </p>
+                </div>
+
+                <img class="const" src="images/contact-img.svg" alt="construction">
+            </div>
+
+            <div class="grp2">
+                <div class="form">
+                    <h1>Contact us.</h1>
+                    <div class="name">
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" name="fullname" placeholder="Full Name">
+                    </div>
+
+                    <div class="studnum">
+                        <label for="snumber">Student Number</label>
+                        <input type="text" id="snumber" name="studentnumber" placeholder="Student Number">
+                    </div>
+
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="subbut">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- create divs for desktop grid -->
+    <section class="sec2">
+
+        <div class="cont2">
+            <div class="hours">
+                <h5>
+                    Our Location
+                </h5>
+                <h3>Algonquin College Students' Association</h3>
+
+                <p>
+                    Monday to Friday – 8:30am to 6:00pm
+                    <br>
+                    1385 Woodroffe Avenue (E114)
+                    <br>
+                    Ottawa, Ontario
+                    <br>
+                    K2G 1V8
+                    <br>
+                    (613) 727-4723 x7711
+                </p>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.0389626636083!2d-75.75911148417049!3d45.34802574920827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College!5e0!3m2!1sen!2sca!4v1594669154946!5m2!1sen!2sca"
+                    width="301" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Follow us</h2>
+        <div>
+            <img src="icons/facebook.svg" alt="facebook">
+            <img src="icons/instagram.svg" alt="instagram">
+            <img src="icons/twitter.svg" alt="twitter">
+            <img src="icons/youtube.svg" alt="youtube">
+        </div>
+        <a href="#top" class="btt">back to top</a>
+    </footer>
 </body>
+
 </html>
