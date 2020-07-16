@@ -183,7 +183,6 @@ nav ul li:active {
     width: 175px;
     height: auto;
     border-radius: 90px;
-    border: 5px solid #F2F2F2;
     margin: auto;
     display: block;
     margin-bottom: 28px;
@@ -676,6 +675,7 @@ input[type=submit] {
     }
 
     /* ABOUT PAGE */
+
     .prt1 h1 {
         font-size: 72pt;
     }
@@ -696,6 +696,7 @@ input[type=submit] {
         text-align: center;
     }
 
+/* image needs to appear on tablet mode beside */
 
     .sec3.zztop .grey .greyarea,
     .sec3.zztop .about3,
@@ -703,11 +704,11 @@ input[type=submit] {
     .about5 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1rem;
         margin: auto;
         width: 600px;
     }
 
-    /* image needs to appear on tablet mode beside */
     .grey .greyarea .new-img,
     .about3 .new-img,
     .about4 .new-img,
@@ -761,25 +762,31 @@ input[type=submit] {
     }
 }
 
+
+/* DESKTOP VIEW */
+
 @media (min-width: 1400px) {
 
     .sec1,
     .sec2,
-    .sec3,
     .sec4,
     .sec5,
-    .sec3,
     .part2,
     .part4 {
         margin: auto;
         width: 85%;
     }
+    .sec3.zztop .about3 {
+        width: 85%;
+    }
 
     /* HOME DESKTOP */
     .sec1 .discover {
-        width: 951px;
+        width: 100%;
         padding-top: 0;
         padding-top: 25px;
+        justify-self: center;
+        align-self: center;
 
     }
 
@@ -829,7 +836,13 @@ input[type=submit] {
         width: 820px;
 
     }
-
+    .about2 {
+        width: 85%;
+        text-align: center;
+    }
+    .about4, .about5 {
+        width: 85%;
+    }
 
     /* WHO WHAT WHEN IN GRID OF 3*/
 
@@ -837,28 +850,31 @@ input[type=submit] {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 70px;
-        
-
+        padding-bottom: 225px;
+        padding-top: 225px;
     }
+
     .who, .what, .where {
-        width: 500px;
+        width: 100%;
     }
-
-
-
-
 
     /* photos sideby side with grid */
-
+    .sec3.zztop .grey .greyarea {
+        width: 85%;
+    }
     .greyarea {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
+    
     }
 
     /* suprise images are larger in desktop*/
     .new-img img {
-        width: 813px;
-        height: 337px;
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        height: auto;
     }
 
     .subscribe h5 {
@@ -866,7 +882,7 @@ input[type=submit] {
 
     }
     .words {
-        width: 813px;
+        width: 90%;
         margin-top: 82px;
         margin-bottom: 82px;
     }
