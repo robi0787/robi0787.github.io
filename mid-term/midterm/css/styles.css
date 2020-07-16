@@ -1,5 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,600&display=swap');
 
+/* ANIMATIONS */
+.homegrp {
+    animation: dropdown 2s 0.5s;
+}
+.discover {
+    animation: otherside 2s 0.5s;
+}
+.sec1 .const {
+    animation: conan2 2s 0.5s;
+}
+
+.sec1 .prt1 {
+    animation: conan 2s 0.5s;
+}
+
+/* KEYFRAMES */
+@keyframes dropdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes otherside {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes conan {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes conan2 {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
 /* Mobile View */
 
 * {
@@ -595,6 +660,7 @@ input[type=submit] {
     .allprez {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     .prez2 p {
