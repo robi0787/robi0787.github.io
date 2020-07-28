@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Bootstrap This</title>
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-md bg-info navbar-dark">
+            <a href="#" class="navbar-brand mr-auto">Bootstrap</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-link active">Bootstrap</a>
+                    <a href="#" class="nav-link">Bootstrap</a>
+                    <a href="#" class="nav-link">Bootstrap</a>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id="carousel-matrix" class="col-fluid carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bootstrap.jpg" class="d-block w-100" alt="matrix">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bootstrap.jpg" class="d-block w-100" alt="matrix">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bootstrap.jpg" class="d-block w-100" alt="matrix">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 text-center bg-dark text-light pb-3 pt-3">
+                <h1>Let's Learn Bootstrap!</h1>
+                <p> We all have heard the term bootstrap before but what is it and what can it do?</p>
+            </div>
+
+            <!-- open source -->
+            <div class="col-med-3 col-lg-6 pb-3 pt-3">
+                <h1>Open Source</h1>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end
+                    web development. It contains CSS- and JavaScript-based design templates for typography, forms,
+                    buttons, navigation, and other interface components.</p>
+
+                <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+                    class="btn btn-primary btn-lg btn-outline-light bg-info ">Learn
+                    More</a>
+            </div>
+
+            <!-- mobile first -->
+            <div class="col-med-3 col-lg-6 pb-3 pt-3">
+                <h1>Mobile First</h1>
+                <p>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align
+                    content. It’s built with flexbox and is fully responsive. Bootstrap uses a powerful mobile-first
+                    flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five
+                    default responsive tiers, Sass variables and mixins, and dozens of predefined classes. <br>
+                    Click the button to learn more about it!
+                </p>
+                <a href="https://getbootstrap.com/docs/4.5/layout/grid/"
+                    class="btn btn-primary btn-lg btn-outline-light bg-info ">Learn
+                    More</a>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- components -->
+            <div class="col-12 pb-3 pt-3 bg-info text-light">
+                <h1 class="text-md-center">Components</h1>
+                <p>Bootstrap comes with nearly two dozen components that are ready to use right out of the box. Below is
+                    a card with a button to learn more about them!</p>
+            </div>
+            <!-- components library -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/bootstrap.jpg" class="card-img-top" alt="alert">
+                <div class="card-body">
+                    <h5 class="card-title">Alert Types</h5>
+                    <p class="card-text">Provide contextual feedback messages for typical user actions with the handful
+                        of available and flexible alert messages.</p>
+                    <a href="https://getbootstrap.com/docs/4.5/components/alerts/" class="btn btn-primary bg-info text-light btn-outline-light">Learn
+                        More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/bootstrap.jpg" class="card-img-top" alt="badge">
+                <div class="card-body">
+                    <h5 class="card-title">Badges</h5>
+                    <p class="card-text">Documentation and examples for badges, our small count and labeling component.
+                    </p>
+                    <a href="https://getbootstrap.com/docs/4.5/components/badge/" class="btn btn-primary bg-info text-light btn-outline-light">Learn
+                        More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/bootstrap.jpg" class="card-img-top" alt="breadcrumb">
+                <div class="card-body">
+                    <h5 class="card-title">Breadcrumb</h5>
+                    <p class="card-text">Indicate the current page’s location within a navigational hierarchy that
+                        automatically adds separators via CSS.</p>
+                    <a href="https://getbootstrap.com/docs/4.5/components/breadcrumb/" class="btn btn-primary bg-info text-light btn-outline-light">Learn
+                        More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- alerts -->
+            <div class="col-med-3 col-lg-12 text-md-center pb-3 pt-3">
+                <div class="alert alert-info" role="alert">
+                    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                    like.
+                </div>
+            </div>
+
+            <!-- Forms -->
+            <div class="col-md-12 col-lg-6 bg-info text-light pb-3 pt-3 mb-3">
+                <h1>Forms</h1>
+                <p>Bootstrap’s form controls expand on our Rebooted form styles with classes. Be sure to use an
+                    appropriate type attribute on all inputs (e.g., email for email address or number for numerical
+                    information) to take advantage of newer input controls like email verification, number selection,
+                    and more.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="bootstrap-form">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">On a scale of 1-5, how great is Bootstrap?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">What is your favorite feature of Bootstrap?</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>Open Source</option>
+                            <option>Alerts</option>
+                            <option>Carousels</option>
+                            <option>Collapse</option>
+                            <option>Badges</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">We want to hear about Bootstrap!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+
+
+            <!-- list group -->
+            <div class="col-med-12 col-lg-6 pb-3 pt-3">
+                <h1>List Group</h1>
+                <p>List groups are a flexible and powerful component for displaying a series of content. Below is an
+                    example of what could be listed!
+                </p>
+                <ul class="list-group">
+                    <h3>List of Bootstrap components</h3>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Components
+                        <span class="badge badge-primary badge-pill bg-info">24+</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Other fun stuff
+                        <span class="badge badge-primary badge-pill bg-info">99</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center ">
+                        Even more fun stuff!
+                        <span class="badge badge-primary badge-pill bg-info">1000</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-info text-light">© 2020 Jeffrey Robinson</div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
