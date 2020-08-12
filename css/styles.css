@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #E4E4E4;
+}
+
+/* All card body will have background yellow bg and font color green */
+
+.card-body.card-bg {
+    background-color: #FDDE85;
+    color: #2CA8A4;
+}
+
+.card-body.card-bg h5 {
+    font-weight: bold;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    color: #FDDE85;
+  }
+.navbar-brand {
+    color: #FDDE85;
+}
+.navbar.navbar-expand-lg {
+    background-color: #2CA8A4;
+}
+.navbar-nav .nav-link.navcolor, .navbar-nav .nav-link.navcolor.active {
+    color: #FDDE85;
+}
+
+.card-header.rtcym h3 {
+    color: #2CA8A4;
+    font-weight: bold;
+}
+
+.schedule h2 {
+    color: #FDDE85;
+    font-weight: bold;
+}
+
+.text-center.main {
+    color:#2CA8A4;
+}
+
