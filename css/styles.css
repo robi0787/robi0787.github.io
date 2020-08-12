@@ -1,4 +1,5 @@
 
+/* All text is Roboto and headings in bold */
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #E4E4E4;
@@ -15,14 +16,6 @@ body {
     font-weight: bold;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50pt;
-    color: #FDDE85;
-  }
 .navbar-brand {
     color: #FDDE85;
 }
@@ -45,5 +38,11 @@ body {
 
 .text-center.main {
     color:#2CA8A4;
+}
+
+/* page was not enough info to hit the bottom and added margin */
+.footer.mt-5 {
+    margin-top: 4rem !important;
+
 }
 
