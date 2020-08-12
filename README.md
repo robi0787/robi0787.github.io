@@ -11,6 +11,12 @@ Once mastering the grid system with bootstrap and understanding that every row n
 
 The one issue I was not able to overcome (and hesitant to indicate the issue for fear of lower marks haha) was the words over the banners. I was able to add the text and center it I was not able to make it change in desktop to the left and ultimately just removed the wording altogether. 
 
+## External Files
+
+* [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) & [Examples](https://getbootstrap.com/docs/4.0/examples/)
+
+* Images from [Freepik](https://freepik.com/)
+
 Thank you for the lovely semester. 
 
 Jeffrey Robinson
